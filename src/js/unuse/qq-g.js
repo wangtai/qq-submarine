@@ -1,0 +1,35 @@
+var str_uintip = "<请输入帐号>";
+var str_passtip = "<请输入密码>";
+var str_codetip = "<请输入验证码>";
+var str_no_uin = "您还没有输入帐号！";
+var str_no_pwd = "您还没有输入密码！";
+var str_no_vcode = "您还没有输入验证码！";
+var str_inv_uin = "请输入正确的QQ帐号！";
+var str_inv_vcode = "请输入完整的验证码！";
+var str_switch_qlogin = "切换到快速登录模式";
+var str_switch_normal = "使用其他号码登录";
+var str_qlogin_no_uin = "系统检测到您机器上QQ未启动或已被锁定。请您先登录QQ或解锁后再使用本功能。";
+var str_qlogin_other_err = "快速登录失败，请您返回重试或切换到普通登录模式。";
+var str_qlogin_select_offline = "您所选择号码对应的QQ已经失效，请检查该号码对应的QQ是否已经被关闭。";
+var str_qlogining = "正在登录中，请稍候……";
+var str_yjfk = "意见反馈";
+var g_version = 201202081858;
+var g_qtarget = "-1";
+var g_href = "http://ui.ptlogin2.qq.com/cgi-bin/login?target=self&style=5&mibao_css=m_webqq&appid=1003903&enable_qlogin=0&no_verifyimg=0&s_url=http%3A%2F%2Fw.qq.com%2Floginproxy.html&f_url=loginerroralert&strong_login=1&login_state=10&t=20120221001";
+var g_forget = "http://ptlogin2.qq.com/ptui_forgetpwd";
+var g_css = "";
+var g_ptcss = "";
+var g_jumpname = "";
+var g_param = "";
+var isLoadVC = false;
+var g_appid = 1003903;
+var g_uin = 0;
+var g_domain = "qq.com";
+var g_target = "_self";
+var g_https = false;
+
+var g_t = "str_uintip}";
+var g_lang = "2052";
+str_uintip = "<请输入帐号>";
+
+var isAbleSubmit = false;
